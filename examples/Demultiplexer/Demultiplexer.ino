@@ -19,11 +19,11 @@
 Wiring
 
 CD4051
-1 -> Input 6
+1 -> Input 5
 2 -> Input 7
 3 -> To arduino pin4
 4 -> Input 8
-5 -> Input 5
+5 -> Input 6
 6 -> Ground
 7 -> Ground
 8 -> Ground
@@ -55,7 +55,7 @@ void loop(){
      CD4051 can handle analog inputs but most devices are only digital.
      Check your datasheet
    */
-    for(int address = 0; address < 0b111; address++){
+    for(int address = 0; address <= 0b111; address++){
           Serial.print("Input: ");
           Serial.print(address);
           Serial.print(" value: ");
