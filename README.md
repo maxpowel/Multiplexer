@@ -1,6 +1,6 @@
 # Arduino Multiplexer
 
-When you need to handle a lot of GPIO (lots of leds, sensors...) the amount of pins provided by Arduino are not enough. The solution is use multiplexers. The objective of this library makes easy to use and maintain a project that uses multiplexers.
+When you need to handle a lot of GPIO (lots of leds, sensors...) the amount of pins provided by Arduino are not enough. The solution is use multiplexers. The objective of this library is make easy to use and maintain a project that uses multiplexers.
 
 
 Configuration
